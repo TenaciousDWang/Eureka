@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.wang</groupId>
-	<artifactId>SpringCloudStudy</artifactId>
+	<artifactId>eureka-client-provider</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>eureka-client-provider</name>
