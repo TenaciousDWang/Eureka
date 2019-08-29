@@ -1,0 +1,10 @@
+eureka:
+  client:
+    registry-fetch-interval-seconds: '10 '
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 54321
+spring:
+  application:
+    name: ribbon-eureka-consumer

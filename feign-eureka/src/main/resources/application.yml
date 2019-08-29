@@ -1,0 +1,18 @@
+eureka:
+  client:
+    registry-fetch-interval-seconds: 10
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 11122
+spring:
+  application:
+    name: feign-eureka-consumer
+    
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000 #连接超时
+        readTimeout: 5000 #读取超时
+        loggerLevel: basic #日志等级
